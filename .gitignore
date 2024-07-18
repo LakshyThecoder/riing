@@ -20,7 +20,6 @@ Temporary Items
 .apdisk
 
 # Folders with CMS-generated content
-dist/
 
 # itens que não pode ser comitados
 *.map
