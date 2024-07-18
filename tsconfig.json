@@ -6,11 +6,12 @@
     "esModuleInterop": true,
     "sourceMap": true,
     "allowJs": true,
-    "lib": [
-      "es6",
-      "dom"
-    ],
+    "lib": ["es6", "dom"],
     "rootDir": "src",
-    "moduleResolution": "node"
-  }
+    "outDir": "./public",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "typeRoots": ["node_modules/@types", "src/types"]
+  },
+  "include": ["src/**/*", "custom.d.ts"]
 }
